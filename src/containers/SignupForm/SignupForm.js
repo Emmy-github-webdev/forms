@@ -20,16 +20,16 @@ class SignupForm extends Component {
     signupDataHandler = (event) => {
         event.preventDefault();
         const data = {
-            dailingCode: "",
-            phoneNumber: "",
-            howDoyouKnowUs: "",
-            refernceid: "",
-            countryId: 1,
-            emailAddress: "",
-            password: "",
-            confirmPassword: "",
-            firstname: "",
-            lastname: ""
+            dailingCode: "234",
+            phoneNumber: "5438976532",
+            howDoyouKnowUs: "Facebook",
+            refernceid: "9439532895",
+            countryId: 2,
+            emailAddress: "ogaemmanuel@ymail.com",
+            password: "Pa$$w0rd",
+            confirmPassword: "Pa$$w0rd",
+            firstname: "Emmy",
+            lastname: "John"
 
         }
         // console.log(data);
